@@ -1,6 +1,6 @@
 import pytest
 
-from pytest_by_example.pkg1.addition import add
+from pytest_by_example.class_one.pkg1.addition import add
 
 
 @pytest.mark.parametrize("a, b, c", [(10,20, 30), (20,40,60), (11,22,33)])
