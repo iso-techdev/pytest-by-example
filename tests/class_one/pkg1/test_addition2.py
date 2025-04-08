@@ -1,6 +1,6 @@
 import pytest
 
-from pytest_by_example.class_one.pkg1.addition import *
+from pytest_by_example.class_1.pkg1.addition import *
 
 
 @pytest.mark.easy_operation

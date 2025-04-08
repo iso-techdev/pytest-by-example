@@ -1,4 +1,4 @@
-from pytest_by_example.class_one.pkg2.myclass import MyClass
+from pytest_by_example.class_1.pkg2.myclass import MyClass
 
 import pytest
 import os
