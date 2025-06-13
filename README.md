@@ -38,6 +38,7 @@ tests/
 ```
 
 ## Instructions
+# YOU NEED TO FIX THE FAILED UNIT TESTS
 1- Read and understand the pytest.ini file under the root of this project. This files is triggered and read as a configuration file by "pytest" before an test execution
 2- You need to go through all test and execute them and fix the unit tests which are failed 
 3- To isolate and run any test module ( python file) go to the root folder 
