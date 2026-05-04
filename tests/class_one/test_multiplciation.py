@@ -1,6 +1,6 @@
 import pytest
 
-from pytest_by_example.pkg1.multiplication import multiply_by_two, divide_by_two
+from pytest_by_example.class_1.pkg1.multiplication import multiply_by_two, divide_by_two
 
 
 @pytest.fixture

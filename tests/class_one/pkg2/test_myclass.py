@@ -1,4 +1,4 @@
-from pytest_by_example.pkg2.myclass import MyClass
+from pytest_by_example.class_1.pkg2.myclass import MyClass
 
 import pytest
 import os
@@ -15,7 +15,7 @@ def root_dir():
 @pytest.fixture
 def data_dir(root_dir):
     # print(root_dir) print statement  works 
-    return root_dir + "/../../data/"
+    return root_dir + "/../../../data/"
 
 
 def test_load_file_from_fixture(data_dir):
